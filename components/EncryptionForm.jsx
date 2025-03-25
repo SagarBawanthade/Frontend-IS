@@ -53,7 +53,7 @@ const EncryptionForm = () => {
         const endpoint = mode === "encrypt" ? "/encrypt" : "/decrypt";
 
         try {
-            const response = await axios.post(`https://576a-2401-4900-503a-f422-1585-aab-21d2-3649.ngrok-free.app${endpoint}`, formData, {
+            const response = await axios.post(`https://60c2-2401-4900-503a-f422-1585-aab-21d2-3649.ngrok-free.app${endpoint}`, formData, {
                 responseType: "blob",
             });
 
